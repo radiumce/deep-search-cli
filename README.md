@@ -4,10 +4,9 @@ A dedicated command-line interface (CLI) client for connecting and interacting w
 
 > **⚠️ IMPORTANT NOTICE**
 >
-> This project is **strictly a client application** and is highly dependent on a **private `deep-search` backend service**. It **cannot** be used as a standalone local search tool. If you do not have access to the required backend service and its configuration environment, this client will not function.
+> This project is **strictly a client application** and is dependent on a **private `deep-search` backend service**. It **cannot** be used as a standalone local search tool. 
 
 ## Installation
-
 You can easily install or update the `deep-search` client directly from the public internet using the following command:
 
 ```bash
