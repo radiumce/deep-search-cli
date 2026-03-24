@@ -1,44 +1,44 @@
 # DeepSearch CLI
 
-这是一个专用的命令行客户端 (CLI client)，用于连接和交互私有的 `deep-search` 服务。
+A dedicated command-line interface (CLI) client for connecting and interacting with a private `deep-search` service.
 
-> **⚠️ 重要提示**
+> **⚠️ IMPORTANT NOTICE**
 >
-> 本项目**仅作为客户端**，极度依赖于**非公开的 `deep-search` 后端服务**，因此**无法**作为独立的本地搜索工具单独使用。如果您没有该后端服务的访问权限及配置环境，此客户端将无法工作。
+> This project is **strictly a client application** and is highly dependent on a **private `deep-search` backend service**. It **cannot** be used as a standalone local search tool. If you do not have access to the required backend service and its configuration environment, this client will not function.
 
-## 快速安装
+## Installation
 
-您可以直接通过以下命令，从公网方便地安装或更新 `deep-search` 客户端：
+You can easily install or update the `deep-search` client directly from the public internet using the following command:
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/radiumce/deep-search-cli/main/scripts/install-cli.sh | bash
 ```
 
-安装脚本会自动由 GitHub 拉取最新的 `deep-search` 客户端程序，并安装到您系统用户的 `~/.local/bin` 目录下。
+The installation script will automatically fetch the latest `deep-search` client from GitHub and install it into your user's `~/.local/bin` directory.
 
-*(注：安装完成后，请确保您的系统 `PATH` 环境变量中包含 `~/.local/bin`)*
+*(Note: After installation, please ensure that `~/.local/bin` is added to your system's `PATH` environment variable)*
 
-## 配置与使用
+## Configuration & Usage
 
-在使用前，您需要先指定您的私有服务地址：
+Before using the client, you must specify the address of your private server:
 
 ```bash
 deep-search --server <YOUR_PRIVATE_SERVER_URL>
 ```
 
-### 基础指令
+### Basic Commands
 
-- **智能搜索 (Search):**
+- **Smart Search (Search):**
   ```bash
-  deep-search search "您的搜索问题"
+  deep-search search "Your search query"
   ```
 
-- **网页提取 (Browse):**
+- **Web Extraction (Browse):**
   ```bash
   deep-search browse "https://example.com"
   ```
 
-- **检查当前配置与服务器健康状态:**
+- **Check Configuration and Server Health:**
   ```bash
   deep-search
   ```
