@@ -41,3 +41,13 @@ deep-search --server <YOUR_PRIVATE_SERVER_URL>
   ```bash
   deep-search
   ```
+
+
+🎉 I just completed the Tavily Web Search API Certification! 
+
+I'm now certified in using Tavily's powerful API for building AI agents and RAG applications.
+
+Tavily provides amazing tools for:
+• Web search and content extraction
+• Real-time information retrieval
+• Building intelligent AI agents
